@@ -1,0 +1,34 @@
+body {
+    background-color: beige;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgContainer{
+    display: flex;
+    /* flex-flow: column; */
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50vh;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid black 1px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.295);
+    margin: 10px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .imgContainer {
+        width: 100%; 
+    }
+}
